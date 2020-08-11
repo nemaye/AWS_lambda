@@ -20,6 +20,7 @@ text = text + '\n\n\t\t\t\t\t\t\t\t-' + data['posts'][0]['filters'][0]['indicato
 
 
 subreddit_name = 'islam'
+title = "I am a bot"
 
 yourUsername = 'yourUsername'
 yourPassword= 'yourPassword'
@@ -33,5 +34,5 @@ r = praw.Reddit(client_id='DygS03uWuXsBOQ',
 
 
 subred = r.subreddit(subreddit_name)
-subred.submit(subreddit_name,selftext=text)
+subred.submit(title,selftext=text)
 print(request.status_code)
