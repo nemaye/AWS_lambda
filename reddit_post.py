@@ -24,6 +24,7 @@ subreddit_name = 'islam'
 yourUsername = 'yourUsername'
 yourPassword= 'yourPassword'
 
+#get your client_id,client_secret from the reddit api
 r = praw.Reddit(client_id='DygS03uWuXsBOQ',
 	client_secret='6pwn5yPHCe6QcFnJiS6mxmeqqTs',
 	username=yourUsername,
