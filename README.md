@@ -8,5 +8,6 @@ ________________________________________________________________________________
 
 YT_Downloader
 
-sudo apt install nodejs
-npm -g install ytdl
+>sudo apt install nodejs
+
+>npm -g install ytdl
