@@ -8,6 +8,7 @@ ________________________________________________________________________________
 
 **YT_Downloader**
 
-Use the following to install dependencies
+Use the following commands to install dependencies
 >sudo apt install nodejs
+
 >npm -g install ytdl
